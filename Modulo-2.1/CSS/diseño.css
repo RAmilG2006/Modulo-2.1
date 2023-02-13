@@ -1,0 +1,66 @@
+.encabezado{
+    background-image: url(../IMG/fohbnj.jpg);
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.text-p{
+    font-family: 'Satisfy', cursive;
+    font-size: 30pt;
+}
+.navleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    padding: 15px;
+}
+
+.NameInc p{
+    color: white;
+    padding: 15px;
+}
+
+.NameInc p:hover{
+    color: white;
+    padding: 15px;
+    background-color: rgb(72, 105, 114);
+    transition: ease-out;
+    transition-duration: 0.5s;
+}
+
+.navright{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.inicio{
+    padding: 15px;
+}
+
+.registro{
+    padding: 15px;
+}
+
+.inicio:hover{
+    background-color: rgb(72, 105, 114);
+    transition: ease-out;
+    transition-duration: 0.5s;
+
+}
+
+.registro:hover{
+    background-color: rgb(72, 105, 114);
+    transition: ease-out;
+    transition-duration: 0.5s;
+
+}
